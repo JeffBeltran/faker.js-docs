@@ -34,6 +34,14 @@ module.exports = {
     repo: "JeffBeltran/faker.js-docs",
     repoLabel: "Contribute!",
     editLinks: true,
-    editLinkText: "Help improve this page!"
+    editLinkText: "Help improve this page!",
+    plugins: [
+      [
+        "@vuepress/google-analytics",
+        {
+          ga: process.env.GATID
+        }
+      ]
+    ]
   }
 };
