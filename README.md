@@ -4,11 +4,12 @@ Wanted more details on the API, documenation was lacking so figured i'd create t
 
 ## Getting Started
 
-[[Future URL](https://www.somedomain.com)](https://www.somedomain.com)
+https://fakerjsdocs.netlify.com/
 
 ## Built With
 
 * [VuePress](https://v1.vuepress.vuejs.org/)
+* [netlify](https://www.netlify.com/)
 
 ## Contributing
 
