@@ -1,11 +1,19 @@
 module.exports = {
-  title: "Documentation",
+  title: "Un-Official Docs",
   description: "Un-Official faker.js Documentation",
   dest: "dist",
   themeConfig: {
     displayAllHeaders: true,
     logo: "/logo.png",
-    sidebar: [["/", "Overview"], "/api", "/localization"],
+    sidebar: [
+      ["/", "Overview"],
+      {
+        title: "API Methods",
+        collapsable: false,
+        children: ["/api/address", "/api/helpers", "/api/api"]
+      },
+      "/localization"
+    ],
     lastUpdated: "Last Updated",
     repo: "JeffBeltran/faker.js-docs",
     repoLabel: "Contribute!",
