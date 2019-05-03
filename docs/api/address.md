@@ -5,9 +5,9 @@
 Generates random zipcode. If format is not specified, the locale's zip format is used. Use formats that are supported with [replaceSymbols](/api/helpers.html#replacesymbols-format)
 
 ::: tip
-Param | Type | Default
---- | --- | :---:
-format | string | `undefined`
+| Param  | Type   |   Default   |
+| ------ | ------ | :---------: |
+| format | string | `undefined` |
 :::
 
 ```js
@@ -72,9 +72,9 @@ faker.address.streetName(); // Rowe Coves
 Returns a random localized street address. Pass in optional object boolean to get a full address.
 
 ::: tip
-Param | Type | Default
---- | --- | :---:
-useFullAddress | boolean | `false`
+| Param          | Type    | Default |
+| -------------- | ------- | :-----: |
+| useFullAddress | boolean | `false` |
 :::
 
 ```js
@@ -151,10 +151,10 @@ faker.address.stateAbbr(); // WV
 Returns a random latitude.
 
 ::: warning Params Available <Badge text="5.0.0+" type="tip" vertical="middle"/>
-Param | Type | Default
---- | --- | :---:
-max | integer | `90`
-min | integer | `-90`
+| Param | Type    | Default |
+| ----- | ------- | :-----: |
+| max   | integer |  `90`   |
+| min   | integer |  `-90`  |
 :::
 
 ```js
@@ -167,10 +167,10 @@ faker.address.latitude(70, 10); // 40.1239
 Returns a random longitude.
 
 ::: warning Params Available <Badge text="5.0.0+" type="tip" vertical="middle"/>
-Param | Type | Default
---- | --- | :---:
-max | integer | `180`
-min | integer | `-180`
+| Param | Type    | Default |
+| ----- | ------- | :-----: |
+| max   | integer |  `180`  |
+| min   | integer | `-180`  |
 :::
 
 ```js

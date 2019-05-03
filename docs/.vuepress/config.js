@@ -3,14 +3,30 @@ module.exports = {
   description: "Un-Official faker.js Documentation",
   dest: "dist",
   themeConfig: {
-    displayAllHeaders: true,
     logo: "/logo.png",
     sidebar: [
       ["/", "Overview"],
       {
         title: "API Methods",
         collapsable: false,
-        children: ["/api/address", "/api/helpers", "/api/api"]
+        children: [
+          "/api/address",
+          "/api/commerce",
+          "/api/company",
+          "/api/database",
+          "/api/date",
+          "/api/fake",
+          "/api/finance",
+          "/api/hacker",
+          "/api/helpers",
+          "/api/image",
+          "/api/internet",
+          "/api/lorem",
+          "/api/name",
+          "/api/phone",
+          "/api/random",
+          "/api/system"
+        ]
       },
       "/localization"
     ],
