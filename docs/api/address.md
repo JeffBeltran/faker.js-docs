@@ -151,10 +151,10 @@ faker.address.stateAbbr(); // WV
 Returns a random latitude.
 
 ::: warning Params Available <Badge text="5.0.0+" type="tip" vertical="middle"/>
-| Param | Type    | Default |
-| ----- | ------- | :-----: |
-| max   | integer |  `90`   |
-| min   | integer |  `-90`  |
+| Param | Type   | Default |
+| ----- | ------ | :-----: |
+| max   | number |  `90`   |
+| min   | number |  `-90`  |
 :::
 
 ```js
@@ -167,10 +167,10 @@ faker.address.latitude(70, 10); // 40.1239
 Returns a random longitude.
 
 ::: warning Params Available <Badge text="5.0.0+" type="tip" vertical="middle"/>
-| Param | Type    | Default |
-| ----- | ------- | :-----: |
-| max   | integer |  `180`  |
-| min   | integer | `-180`  |
+| Param | Type   | Default |
+| ----- | ------ | :-----: |
+| max   | number |  `180`  |
+| min   | number | `-180`  |
 :::
 
 ```js

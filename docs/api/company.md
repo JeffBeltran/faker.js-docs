@@ -18,9 +18,9 @@ Return random company name. Using one of the following format options
 :::
 
 ::: tip
-| Param       | Type    | Default |
-| ----------- | ------- | :-----: |
-| formatIndex | integer |  `0-2`  |
+| Param       | Type   | Default |
+| ----------- | ------ | :-----: |
+| formatIndex | number |  `0-2`  |
 :::
 
 ```js

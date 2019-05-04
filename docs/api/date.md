@@ -7,7 +7,7 @@ Return date sometime in the past.
 ::: tip
 | Param    | Type    |   Default    |
 | -------- | ------- | :----------: |
-| maxYears | integer |     `1`      |
+| maxYears | number |     `1`      |
 | refDate  | Date    | `new Date()` |
 :::
 
@@ -29,7 +29,7 @@ Return date sometime in the future.
 ::: tip
 | Param   | Type    |   Default    |
 | ------- | ------- | :----------: |
-| years   | integer |     `1`      |
+| years   | number |     `1`      |
 | refDate | Date    | `new Date()` |
 :::
 
@@ -67,7 +67,7 @@ Returns some date recent date
 ::: tip
 | Param   | Type    |   Default    |
 | ------- | ------- | :----------: |
-| days    | integer |     `1`      |
+| days    | number |     `1`      |
 | refDate | Date    | `new Date()` |
 :::
 
@@ -82,7 +82,7 @@ Return date sometime soon.
 ::: tip
 | Param   | Type    |   Default    |
 | ------- | ------- | :----------: |
-| days    | integer |     `1`      |
+| days    | number |     `1`      |
 | refDate | Date    | `new Date()` |
 :::
 
