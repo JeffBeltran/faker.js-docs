@@ -3,6 +3,10 @@ module.exports = {
   description: "Un-Official faker.js Documentation",
   dest: "dist",
   themeConfig: {
+    algolia: {
+      apiKey: process.env.ALGOLIA_KEY,
+      indexName: process.env.ALGOLIA_INDEX
+    },
     logo: "/logo.png",
     sidebar: [
       ["/", "Overview"],
