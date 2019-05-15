@@ -31,7 +31,7 @@ faker.helpers.slugify("bob was here"); // bob-was-here
 ```
 
 
-## replaceSymbolWithNumber([string, symbol])
+## replaceSymbolWithNumber([string[, symbol]])
 
 replace a symbol with a number
 
