@@ -11,8 +11,8 @@ Returns a random value from the provided array
 :::
 
 ```js
-faker.commerce.randomize(); // a
-faker.commerce.randomize(['bob', 'joe', 'tim']); // joe
+faker.helpers.randomize(); // a
+faker.helpers.randomize(['bob', 'joe', 'tim']); // joe
 ```
 
 ## slugify([string])
@@ -63,9 +63,9 @@ Parses string for symbols (numbers or letters) and replaces them appropriately.
 :::
 
 ```js
-faker.address.replaceSymbols("#####"); // 98101
-faker.address.replaceSymbols("???"); // ABC
-faker.address.replaceSymbols("****"); // R2D2
+faker.helpers.replaceSymbols("#####"); // 98101
+faker.helpers.replaceSymbols("???"); // ABC
+faker.helpers.replaceSymbols("bob-###-42-??") // bob-226-42-KB
 ```
 
 ## shuffle([array])
@@ -85,9 +85,19 @@ faker.helpers.shuffle(["a", "b", "c"]); // ["c", "a", "b"]
 
 ## mustache(str, data)
 
-::: danger
-Needs better documentation.
+replaces mustache variable in string with provided key pair
+
+::: tip
+| Param | Type   | Default |
+| ----- | ------ | :-----: |
+| str   | string |  `n/a`  |
+| data  | object |  `n/a`  |
 :::
+
+```js
+faker.helpers.mustache(); // ""
+faker.helpers.mustache('{{foo}} was {{baz}}', {foo: 'bar', baz: 42}); // bar was 42
+```
 
 ## createCard
 

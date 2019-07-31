@@ -5,7 +5,7 @@
 Return random abbreviation
 
 ```js
-faker.finance.abbreviation(); // SMTP
+faker.hacker.abbreviation(); // SMTP
 ```
 
 ## adjective
@@ -13,7 +13,7 @@ faker.finance.abbreviation(); // SMTP
 Return random adjective
 
 ```js
-faker.finance.adjective(); // wireless
+faker.hacker.adjective(); // wireless
 ```
 
 ## noun
@@ -21,7 +21,7 @@ faker.finance.adjective(); // wireless
 Return random noun
 
 ```js
-faker.finance.noun(); // capacitor
+faker.hacker.noun(); // capacitor
 ```
 
 ## verb
@@ -29,7 +29,7 @@ faker.finance.noun(); // capacitor
 Return random verb
 
 ```js
-faker.finance.verb(); // parse
+faker.hacker.verb(); // parse
 ```
 
 ## ingverb
@@ -37,7 +37,7 @@ faker.finance.verb(); // parse
 Return random ingverb
 
 ```js
-faker.finance.ingverb(); // programming
+faker.hacker.ingverb(); // programming
 ```
 
 ## phrase
@@ -45,5 +45,5 @@ faker.finance.ingverb(); // programming
 Return random phrase
 
 ```js
-faker.finance.phrase(); // Try to reboot the SQL bus, maybe it will bypass the virtual application!
+faker.hacker.phrase(); // Try to reboot the SQL bus, maybe it will bypass the virtual application!
 ```
