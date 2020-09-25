@@ -5,7 +5,7 @@ module.exports = {
   themeConfig: {
     algolia: {
       apiKey: process.env.ALGOLIA_KEY,
-      indexName: process.env.ALGOLIA_INDEX
+      indexName: process.env.ALGOLIA_INDEX,
     },
     logo: "/logo.png",
     sidebar: [
@@ -29,23 +29,16 @@ module.exports = {
           "/api/name",
           "/api/phone",
           "/api/random",
-          "/api/system"
-        ]
+          "/api/system",
+        ],
       },
-      "/localization"
+      "/localization",
     ],
     lastUpdated: "Last Updated",
     repo: "JeffBeltran/faker.js-docs",
     repoLabel: "Contribute!",
     editLinks: true,
     editLinkText: "Help improve this page!",
-    plugins: [
-      [
-        "@vuepress/google-analytics",
-        {
-          ga: process.env.GATID
-        }
-      ]
-    ]
-  }
+    plugins: [],
+  },
 };
