@@ -104,7 +104,7 @@ Return random month name
 faker.date.month();
 // December
 
-faker.date.weekday({abbr: true});
+faker.date.month({abbr: true});
 // Dec
 ```
 
