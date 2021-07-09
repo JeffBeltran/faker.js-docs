@@ -71,7 +71,7 @@ faker.random.uuid(); // 202e301c-1a22-4ed9-8f86-88e5520a76c6
 Returns random boolean
 
 :::tip
-**NOTE**: Starting from <Badge text="v5.5.0" type="tip" vertical="middle"/> `faker.datatype.uuid` is more preferred to use
+**NOTE**: Starting from <Badge text="v5.5.0" type="tip" vertical="middle"/> `faker.datatype.boolean` is more preferred to use
 :::
 
 ```js
