@@ -18,6 +18,7 @@ module.exports = {
           "/api/commerce",
           "/api/company",
           "/api/database",
+          "/api/datatype",
           "/api/date",
           "/api/fake",
           "/api/finance",
